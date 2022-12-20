@@ -52,12 +52,12 @@ document.querySelector('#execute').addEventListener('click', () => {
         let stringUm = '1';
         let numTrinta = 30;
         let stringTrinta = '30';
-        let numDez = 10;
+        let numOnze = 11;
         let stringDez = '10';
         let numCem = 100;
         let numCem_2 = 100;
 
-        let num = [numUm, numDez, numTrinta, numCem];
+        let num = [numUm, numOnze, numTrinta, numCem];
         let string = [stringUm, stringDez, stringTrinta, numCem_2]
 
         for (let i = 0; i < string.length; i++) {
@@ -71,7 +71,7 @@ document.querySelector('#execute').addEventListener('click', () => {
             }
 
             else {
-                ddocument.querySelector(`.show${i}`).innerHTML = '<br><strong>As variáveis numUm e stringUm não tem o mesmo valor</strong><br>'
+                document.querySelector(`.show${i}`).innerHTML = `<br><strong>As variáveis ${num[i]} e ${string[i]} não tem o mesmo valor</strong><br>`
             }
         }
     }
@@ -85,7 +85,7 @@ calc()
     <br>let stringUm = '1';<br>
     <br>let numTrinta = 30;
     <br>let stringTrinta = '30';<br>
-    <br>let numDez = 10;
+    <br>let numOnze = 11;
     <br>let stringDez = '10';<br>
     <br>let numCem = 100;
     <br>let numCem_2 = 100;
