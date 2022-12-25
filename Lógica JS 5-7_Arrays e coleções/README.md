@@ -13,3 +13,6 @@ This project was developed during day 5 of #7DaysOfCode of Alura.
 
 ## Preview
 ![](./assets/img/preview.gif#ruannarici)
+
+## Happy Christmas
+![](./assets/img/natal.jpg)
