@@ -11,4 +11,4 @@ FIGMA
 This project was developed during day 4 of #7DaysOfCode of Alura.
 
 ## Preview
-![](./assets/img/preview.gif#vitrinedev)
+![](./assets/img/preview.gif)
